@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=45"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caesar-cipher"
+version = "1.0.0"
+description = "Caesar Cipher Encoder/Decoder with ASCII Art"
+authors = [{name = "Songa Praneeth", email = "songapraneeth8@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.6"
+
+[project.scripts]
+caesar = "caesar_cipher.caesar:main"
