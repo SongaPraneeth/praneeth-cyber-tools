@@ -55,19 +55,24 @@ Decrypt:
 
 **Output:**
 
+```
 Mode    : encrypt
 Shift   : 13
 Input   : Cyber Security
 Result  : Plore Frphergl
+```
 
 **Decrypt**
 `caesar -d "Plore Frphergl"`
 
 **Output:**
 
+```
 Mode    : decrypt
 Shift   : 13
 Input   : Plore Frphergl
 Result  : Cyber Security
+```
 
 [image alt](https://github.com/SongaPraneeth/praneeth-cyber-tools/blob/afee132bcaa8da512e0b2873d6fc474bdf72eccc/Projects%20photos/caesar%20cipher.png)
+
