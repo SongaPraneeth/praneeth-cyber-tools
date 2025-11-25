@@ -7,7 +7,7 @@ setup(
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="Songa Praneeth",
-    url="https://github.com/SongaPraneeth/praneeth-cyber-tools/tree/cli/crypto-encoding/caesar-cipher-cli",  
+    url="https://github.com/SongaPraneeth/praneeth-cyber-tools",  
     packages=find_packages(exclude=("tests",)),
     entry_points={
         "console_scripts": [

@@ -1,13 +1,29 @@
 **How to Install**
 
-1. Clone the repository
-`git clone https://github.com/SongaPraneeth/praneeth-cyber-tools/tree/cli/crypto-encoding/caesar-cipher-cli`
+`pipx` is the best way to install **Python CLI tools** globally without affecting your system packages.
+It creates a safe isolated environment and still lets you run the tool anywhere.
 
-2. Go into the project folder
-`cd caesar_cipher`
+1. **Install pipx**
 
-3. Install the tool globally
-`pip install .`
+If you don’t already have pipx, install it:
+
+```markdown
+
+sudo apt install pipx
+pipx ensurepath
+
+```
+
+Close and reopen your terminal (or run source ~/.bashrc) so PATH updates.
+
+2. **Clone the repository**
+`git clone https://github.com/SongaPraneeth/praneeth-cyber-tools`
+
+3. **Go into the project folder**
+`cd praneeth-cyber-tools/crypto-encoding/caesar-cipher-cli`
+
+4. **Install the tool globally**
+`pip install .` or `pipx install .`
 
 That’s it! Now you can use the `caesar` command anywhere on your system.
 
@@ -53,3 +69,5 @@ Mode    : decrypt
 Shift   : 13
 Input   : Plore Frphergl
 Result  : Cyber Security
+
+
