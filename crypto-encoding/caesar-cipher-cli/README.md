@@ -1,10 +1,10 @@
 **How to Install**
 
-****1. Clone the repository
-`git clone https://github.com/yourusername/caesar-cli.git`
+1. Clone the repository
+`git clone https://github.com/SongaPraneeth/praneeth-cyber-tools/tree/cli/crypto-encoding/caesar-cipher-cli`
 
 2. Go into the project folder
-`cd caesar-cli`
+`cd caesar_cipher`
 
 3. Install the tool globally
 `pip install .`
@@ -13,15 +13,15 @@ That’s it! Now you can use the `caesar` command anywhere on your system.
 
  **How to Use:**
 
-**** 1. Encrypt text
+1. Encrypt text
 
 `caesar -e "hello world"`
 
- 2. Decrypt text
+2. Decrypt text
 
 `caesar -d "uryyb jbeyq"`
 
- 3. Use a custom shift
+3. Use a custom shift
 
 Default shift = 13
 To use a custom shift (example: 5):
