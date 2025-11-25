@@ -55,19 +55,22 @@ Decrypt:
 
 **Output:**
 
+```
 Mode    : encrypt
 Shift   : 13
 Input   : Cyber Security
 Result  : Plore Frphergl
+```
 
 **Decrypt**
 `caesar -d "Plore Frphergl"`
 
 **Output:**
 
+```
 Mode    : decrypt
 Shift   : 13
 Input   : Plore Frphergl
 Result  : Cyber Security
-
+```
 
